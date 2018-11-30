@@ -12,7 +12,7 @@ I am planning to complete the third part
 before April. Afterward, I will release the final version of the reciever in this page. 
 
 ### GALILEO RECEIVER 
-Galileo receivers receive a summation of real signals from satellites and pseudorandom noise. In fact, the receiver must separate real signal from noise and then identify each satellite signal with the help of individual codes. These codes are called Ranging Code and they are individual for each satellite. Then, the receiver must determine Doppler effect and code delay. In fact, doppler effect should be removed from the signal with the help of a PLL. The distance between each two satellites can be determined by using delay time. Afterward, the reciever will be able to calculate the pseudoranges. Therefore, the receiver will be able to determine its position by means of at least 4 satellites positions and pseudoranges. More details are available in following parts. 
+Galileo receivers receive a summation of real signals from satellites and pseudorandom noise. In fact, the receiver must separate real signal from noise and then identify each satellite signal with the help of individual codes. These codes are called Ranging Code and they are different for each satellite. Then, the receiver must determine Doppler effect and code delay. In fact, doppler effect should be removed from the signal with the help of a PLL. The distance between each two satellites can be determined by using delay time. Afterward, the reciever will be able to calculate the pseudoranges. Therefore, the receiver will be able to determine its position by means of at least 4 satellites positions and pseudoranges. More details are available in following parts. 
 
 ### 	GENERAL MESSAGE STRUCTURE
 As illustrated in the figure, Galileo I/NAV Frame consists of 24 Sub-Frame, furthermore, each sub-frame is a collection of 15 pages.
@@ -59,4 +59,10 @@ In other words, ranging code cross-correlation must have a peek for n = 0 (or n 
 
 ![alt text](RangingCode_CC.png)
 
-Note: I am trying to complete this article and release final version of my codes. If you have any question or problem, please do not hesitate to contact me.
+### Note: I am trying to complete this article and release final version of my codes. If you have any question or problem, please do not hesitate to contact me.
+### REFERENCES
+
+I.	Project results <br />
+II.	Galileo SIS ICD <br />
+III.	www.navipedia.net <br />
+(The first, second, and forth pictures are extracted from Galileo SIS ICD)
